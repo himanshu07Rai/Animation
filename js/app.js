@@ -16,32 +16,30 @@ gsap.fromTo(
     }
 )
 
-gsap.to(
-    ".animate2",
-    {
-        x:400,
-        opacity:0.5,
-        rotate:180,
-        delay:5,
-        duration:2
-    }
-)
+// gsap.to(
+//     ".animate2",
+//     {
+//         x:400,
+//         opacity:0.5,
+//         rotate:180,
+//         delay:5,
+//         duration:2
+//     }
+// )
 
 gsap.from(
-    ".a",
+    ".item-1",
     {
-        delay:4,
-        x:-100,
-        ease:"bounce.in",
+        x:-800,
+        ease:"power1.inOut",
         duration:2
     }
 )
 gsap.from(
-    ".b",
+    ".item-2",
     {
-        delay:4,
-        y:-500,
-        ease:"bounce.in",
+        x:800,
+        ease:"power1.inOut",
         duration:2
     }
 )
