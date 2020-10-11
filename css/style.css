@@ -1,0 +1,109 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  align-items: center;
+  color: #666;
+}
+
+.reveal {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}
+
+.reveal img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pimg1 {
+  background-image: url("../Img/image1.jpg");
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url("../Img/image2.jpg");
+  min-height: 100%;
+}
+.pimg3 {
+  background-image: url("../Img/image3.jpg");
+  min-height: 100%;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  display: inline-block;
+  background-color: #111;
+  color: white;
+  padding: 20px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: rgb(83, 218, 150);
+  color: #666;
+}
+.section-dark {
+  background-color: black;
+  color: #fff;
+}
+
+.parent {
+  position: relative;
+}
+
+.a {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 100;
+  background: red;
+}
+
+.b {
+  position: absolute;
+  width: 80px;
+  height: 180px;
+  z-index: 110;
+  left: 10px;
+  background: blue;
+  top: 10px;
+}
+
+@media (max-width: 568px) {
+  .ptext {
+    font-size: 15px;
+  }
+  .section {
+    font-size: 12px;
+  }
+}
