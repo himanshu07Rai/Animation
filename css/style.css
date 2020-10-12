@@ -123,7 +123,7 @@ html {
 }
 .item-2 {
   background-color: #cc5;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   grid-column: 4 / span 3;
   grid-row: 3 / span 3;
 }

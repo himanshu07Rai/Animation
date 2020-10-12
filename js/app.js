@@ -30,16 +30,18 @@ gsap.fromTo(
 gsap.from(
     ".item-1",
     {
-        x:-800,
+        x:-100,
         ease:"power1.inOut",
-        duration:2
+        duration:1.2,
+        opacity:0
     }
 )
 gsap.from(
     ".item-2",
     {
-        x:800,
+        x:100,
+        opacity:0,
         ease:"power1.inOut",
-        duration:2
+        duration:1.2
     }
 )
