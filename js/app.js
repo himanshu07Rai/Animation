@@ -14,19 +14,7 @@ gsap.fromTo(
         repeat:10,
         yoyo:true,
     }
-)
-
-// gsap.to(
-//     ".animate2",
-//     {
-//         x:400,
-//         opacity:0.5,
-//         rotate:180,
-//         delay:5,
-//         duration:2
-//     }
-// )
-
+) 
 gsap.from(
     ".item-1",
     {
